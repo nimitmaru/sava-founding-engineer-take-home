@@ -13,7 +13,7 @@ Build a **Trust Officer Dashboard** that acts as "Mission Control" for a specifi
 You are building the interface for a Trust Officer who needs to:
 
 1. Monitor the financial health of the trust (**The Ledger**) (like a bank account)
-2. Review and process incoming demands for cash against the trust's rules (**The Queue**).
+2. A workflow to review and process incoming demands for cash against the trust's rules (**The Request Queue**).
 
 ## What We're Looking For
 
@@ -21,19 +21,23 @@ Specifically, we want to see:
 
 * **Architectural thinking:** How do you structure your code, manage state, and model data? We also want to hear how you'd evolve this system in a production environment with real scale and regulatory requirements.
 
-* **Thoughtful UX decisions:** How do you make complex financial workflows feel simple and understandable? We care about the decisions you make, not pixel-perfect design.
+* **Thoughtful UX decisions:** How do you make complex financial workflows feel simple and understandable? 
 
 * **Opinions:** We want to see evidence that an experienced dev made deliberate choices. What did you keep simple and why? What did you intentionally leave out? If you used clever prompts to get deeper, we'd love to see them.
 
-* **Initiative:** If you have time and ideas, add features. Show us you're excited to build, not just checking boxes.
+* **Initiative:** If you have time and ideas, add features you think would be particularly cool.
 
 **Tests are optional.** We care more about your thinking and taste than test coverage.
 
-## The Constraints
+## The Constraints (suggestion)
 
-* **Stack:** Next.js, TypeScript, Tailwind CSS.
-* **AI Integration (Required):** Use the OpenAI API to parse unstructured requests. Your project should read the API key from a `.env.local` file (e.g., `OPENAI_API_KEY`). Do not commit your API key. We will use our own key when reviewing.
+* **Stack Suggestion:** Next.js, TypeScript, Tailwind CSS. If you're far more proficient in or feel strongly about a different stack, feel free to use whatever stack you'd like. 
+* **AI Integration (Required):** Use the OpenAI API to parse unstructured requests. Your project should read the API key from a `.env.local` file (e.g., `OPENAI_API_KEY`). Do not commit your API key. We will use our own key when reviewing. Please just stick to OpenAI for the sake of this assignment. 
 * **Take-home window**: 72 hours.
+
+## On AI Coding Tools
+
+You're welcome and encouraged to use AI coding agents (Claude Code, Cursor etc) to speed you up for this assignment. We care about the quality of the output and your ability to make good decisions. Please mention your process in your video walkthrough, AI coding hacks you use that you're proud of and how you code review AI-generated code and architecture to ensure that we're building a strong foundation.
 
 ## Input Data & Rules
 
@@ -121,7 +125,6 @@ These are not required, but strong candidates often address them:
      * Clear instructions on how to run the app
      * Brief explanation of your technical decisions
      * Any assumptions you made
-
 
 2. **Short Video Walkthrough (E.g. Loom, Required):**
 
