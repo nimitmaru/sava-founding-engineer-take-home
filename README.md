@@ -14,9 +14,9 @@ Build a **Trust Officer Dashboard** for managing trust distributions.
 
 ## What's in `starter-files/`
 
-- `data/ledger.json` — Transaction history (current balance: **~$1,471,300**)
-- `data/requests.json` — Pending beneficiary requests to process
-- `.env.example` — Required environment variables
+- `starter-files/data/ledger.json` — Transaction history (current balance: **~$1,471,300**)
+- `starter-files/data/requests.json` — Pending beneficiary requests to process
+- `starter-files/.env.example` — Required environment variables
 
 ## On AI Tools
 
